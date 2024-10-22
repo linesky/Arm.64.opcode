@@ -1,5 +1,3 @@
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
 ldr x0,#0|00000058
 ldr x0,x0|00000058
 ldr x0,x1|00000058
@@ -19,7 +17,6 @@ ldr x0,[x5]|a00040f9
 ldr x0,[x6]|c00040f9
 ldr x0,[x7]|e00040f9
 ldr x0,[x8]|000140f9
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
 ldr x1,#0|01000058
 ldr x1,x0|01000058
 ldr x1,x1|01000058
@@ -39,7 +36,6 @@ ldr x1,[x5]|a10040f9
 ldr x1,[x6]|c10040f9
 ldr x1,[x7]|e10040f9
 ldr x1,[x8]|010140f9
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
 ldr x2,#0|02000058
 ldr x2,x0|02000058
 ldr x2,x1|02000058
@@ -59,7 +55,6 @@ ldr x2,[x5]|a20040f9
 ldr x2,[x6]|c20040f9
 ldr x2,[x7]|e20040f9
 ldr x2,[x8]|020140f9
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
 ldr x3,#0|03000058
 ldr x3,x0|03000058
 ldr x3,x1|03000058
@@ -79,7 +74,6 @@ ldr x3,[x5]|a30040f9
 ldr x3,[x6]|c30040f9
 ldr x3,[x7]|e30040f9
 ldr x3,[x8]|030140f9
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
 ldr x4,#0|04000058
 ldr x4,x0|04000058
 ldr x4,x1|04000058
@@ -99,7 +93,6 @@ ldr x4,[x5]|a40040f9
 ldr x4,[x6]|c40040f9
 ldr x4,[x7]|e40040f9
 ldr x4,[x8]|040140f9
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
 ldr x5,#0|05000058
 ldr x5,x0|05000058
 ldr x5,x1|05000058
@@ -119,7 +112,6 @@ ldr x5,[x5]|a50040f9
 ldr x5,[x6]|c50040f9
 ldr x5,[x7]|e50040f9
 ldr x5,[x8]|050140f9
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
 ldr x6,#0|06000058
 ldr x6,x0|06000058
 ldr x6,x1|06000058
@@ -139,7 +131,6 @@ ldr x6,[x5]|a60040f9
 ldr x6,[x6]|c60040f9
 ldr x6,[x7]|e60040f9
 ldr x6,[x8]|060140f9
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
 ldr x7,#0|07000058
 ldr x7,x0|07000058
 ldr x7,x1|07000058
@@ -159,7 +150,6 @@ ldr x7,[x5]|a70040f9
 ldr x7,[x6]|c70040f9
 ldr x7,[x7]|e70040f9
 ldr x7,[x8]|070140f9
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
 ldr w8,#0|08000018
 ldr w8,x0|08000018
 ldr w8,x1|08000018
@@ -179,55 +169,6 @@ ldr w8,[x5]|a80040b9
 ldr w8,[x6]|c80040b9
 ldr w8,[x7]|e80040b9
 ldr w8,[x8]|080140b9
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-svc #0 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
 cmp x0,#0|1f0000f1
 cmp x0,x0|1f0000eb
 cmp x0,x1|1f0001eb
@@ -237,7 +178,6 @@ cmp x0,x4|1f0004eb
 cmp x0,x5|1f0005eb
 cmp x0,x6|1f0006eb
 cmp x0,x7|1f0007eb
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
 cmp x1,#0|3f0000f1
 cmp x1,x0|3f0000eb
 cmp x1,x1|3f0001eb
@@ -247,7 +187,6 @@ cmp x1,x4|3f0004eb
 cmp x1,x5|3f0005eb
 cmp x1,x6|3f0006eb
 cmp x1,x7|3f0007eb
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
 cmp x2,#0|5f0000f1
 cmp x2,x0|5f0000eb
 cmp x2,x1|5f0001eb
@@ -257,7 +196,6 @@ cmp x2,x4|5f0004eb
 cmp x2,x5|5f0005eb
 cmp x2,x6|5f0006eb
 cmp x2,x7|5f0007eb
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
 cmp x3,#0|7f0000f1
 cmp x3,x0|7f0000eb
 cmp x3,x1|7f0001eb
@@ -267,7 +205,6 @@ cmp x3,x4|7f0004eb
 cmp x3,x5|7f0005eb
 cmp x3,x6|7f0006eb
 cmp x3,x7|7f0007eb
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
 cmp x4,#0|9f0000f1
 cmp x4,x0|9f0000eb
 cmp x4,x1|9f0001eb
@@ -277,7 +214,6 @@ cmp x4,x4|9f0004eb
 cmp x4,x5|9f0005eb
 cmp x4,x6|9f0006eb
 cmp x4,x7|9f0007eb
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
 cmp x5,#0|bf0000f1
 cmp x5,x0|bf0000eb
 cmp x5,x1|bf0001eb
@@ -287,7 +223,6 @@ cmp x5,x4|bf0004eb
 cmp x5,x5|bf0005eb
 cmp x5,x6|bf0006eb
 cmp x5,x7|bf0007eb
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
 cmp x6,#0|df0000f1
 cmp x6,x0|df0000eb
 cmp x6,x1|df0001eb
@@ -297,7 +232,6 @@ cmp x6,x4|df0004eb
 cmp x6,x5|df0005eb
 cmp x6,x6|df0006eb
 cmp x6,x7|df0007eb
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
 cmp x7,#0|ff0000f1
 cmp x7,x0|ff0000eb
 cmp x7,x1|ff0001eb
@@ -307,52 +241,8 @@ cmp x7,x4|ff0004eb
 cmp x7,x5|ff0005eb
 cmp x7,x6|ff0006eb
 cmp x7,x7|ff0007eb
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
 cmp w8,#0|1f010071
-/tmp/out.asm:4: Info:    did you mean this?
-/tmp/out.asm:4: Info:    	cmp w8, w0
-/tmp/out.asm:4: Info:    other valid variant(s):
-/tmp/out.asm:4: Info:    	cmp x8, x0
-/tmp/out.asm:4: Info:    did you mean this?
-/tmp/out.asm:4: Info:    	cmp w8, w1
-/tmp/out.asm:4: Info:    other valid variant(s):
-/tmp/out.asm:4: Info:    	cmp x8, x1
-/tmp/out.asm:4: Info:    did you mean this?
-/tmp/out.asm:4: Info:    	cmp w8, w2
-/tmp/out.asm:4: Info:    other valid variant(s):
-/tmp/out.asm:4: Info:    	cmp x8, x2
-/tmp/out.asm:4: Info:    did you mean this?
-/tmp/out.asm:4: Info:    	cmp w8, w3
-/tmp/out.asm:4: Info:    other valid variant(s):
-/tmp/out.asm:4: Info:    	cmp x8, x3
-/tmp/out.asm:4: Info:    did you mean this?
-/tmp/out.asm:4: Info:    	cmp w8, w4
-/tmp/out.asm:4: Info:    other valid variant(s):
-/tmp/out.asm:4: Info:    	cmp x8, x4
-/tmp/out.asm:4: Info:    did you mean this?
-/tmp/out.asm:4: Info:    	cmp w8, w5
-/tmp/out.asm:4: Info:    other valid variant(s):
-/tmp/out.asm:4: Info:    	cmp x8, x5
-/tmp/out.asm:4: Info:    did you mean this?
-/tmp/out.asm:4: Info:    	cmp w8, w6
-/tmp/out.asm:4: Info:    other valid variant(s):
-/tmp/out.asm:4: Info:    	cmp x8, x6
-/tmp/out.asm:4: Info:    did you mean this?
-/tmp/out.asm:4: Info:    	cmp w8, w7
-/tmp/out.asm:4: Info:    other valid variant(s):
-/tmp/out.asm:4: Info:    	cmp x8, x7
 cmp w8,w8|1f01086b
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
 mov x0,#0|000080d2
 mov x0,x0|e00300aa
 mov x0,x1|e00301aa
@@ -362,11 +252,6 @@ mov x0,x4|e00304aa
 mov x0,x5|e00305aa
 mov x0,x6|e00306aa
 mov x0,x7|e00307aa
-/tmp/out.asm:4: Info:    did you mean this?
-/tmp/out.asm:4: Info:    	mov w0, w8
-/tmp/out.asm:4: Info:    other valid variant(s):
-/tmp/out.asm:4: Info:    	mov x0, x8
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
 mov x1,#0|010080d2
 mov x1,x0|e10300aa
 mov x1,x1|e10301aa
@@ -376,11 +261,6 @@ mov x1,x4|e10304aa
 mov x1,x5|e10305aa
 mov x1,x6|e10306aa
 mov x1,x7|e10307aa
-/tmp/out.asm:4: Info:    did you mean this?
-/tmp/out.asm:4: Info:    	mov w1, w8
-/tmp/out.asm:4: Info:    other valid variant(s):
-/tmp/out.asm:4: Info:    	mov x1, x8
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
 mov x2,#0|020080d2
 mov x2,x0|e20300aa
 mov x2,x1|e20301aa
@@ -390,11 +270,6 @@ mov x2,x4|e20304aa
 mov x2,x5|e20305aa
 mov x2,x6|e20306aa
 mov x2,x7|e20307aa
-/tmp/out.asm:4: Info:    did you mean this?
-/tmp/out.asm:4: Info:    	mov w2, w8
-/tmp/out.asm:4: Info:    other valid variant(s):
-/tmp/out.asm:4: Info:    	mov x2, x8
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
 mov x3,#0|030080d2
 mov x3,x0|e30300aa
 mov x3,x1|e30301aa
@@ -404,11 +279,6 @@ mov x3,x4|e30304aa
 mov x3,x5|e30305aa
 mov x3,x6|e30306aa
 mov x3,x7|e30307aa
-/tmp/out.asm:4: Info:    did you mean this?
-/tmp/out.asm:4: Info:    	mov w3, w8
-/tmp/out.asm:4: Info:    other valid variant(s):
-/tmp/out.asm:4: Info:    	mov x3, x8
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
 mov x4,#0|040080d2
 mov x4,x0|e40300aa
 mov x4,x1|e40301aa
@@ -418,11 +288,6 @@ mov x4,x4|e40304aa
 mov x4,x5|e40305aa
 mov x4,x6|e40306aa
 mov x4,x7|e40307aa
-/tmp/out.asm:4: Info:    did you mean this?
-/tmp/out.asm:4: Info:    	mov w4, w8
-/tmp/out.asm:4: Info:    other valid variant(s):
-/tmp/out.asm:4: Info:    	mov x4, x8
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
 mov x5,#0|050080d2
 mov x5,x0|e50300aa
 mov x5,x1|e50301aa
@@ -432,11 +297,6 @@ mov x5,x4|e50304aa
 mov x5,x5|e50305aa
 mov x5,x6|e50306aa
 mov x5,x7|e50307aa
-/tmp/out.asm:4: Info:    did you mean this?
-/tmp/out.asm:4: Info:    	mov w5, w8
-/tmp/out.asm:4: Info:    other valid variant(s):
-/tmp/out.asm:4: Info:    	mov x5, x8
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
 mov x6,#0|060080d2
 mov x6,x0|e60300aa
 mov x6,x1|e60301aa
@@ -446,11 +306,6 @@ mov x6,x4|e60304aa
 mov x6,x5|e60305aa
 mov x6,x6|e60306aa
 mov x6,x7|e60307aa
-/tmp/out.asm:4: Info:    did you mean this?
-/tmp/out.asm:4: Info:    	mov w6, w8
-/tmp/out.asm:4: Info:    other valid variant(s):
-/tmp/out.asm:4: Info:    	mov x6, x8
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
 mov x7,#0|070080d2
 mov x7,x0|e70300aa
 mov x7,x1|e70301aa
@@ -460,306 +315,9 @@ mov x7,x4|e70304aa
 mov x7,x5|e70305aa
 mov x7,x6|e70306aa
 mov x7,x7|e70307aa
-/tmp/out.asm:4: Info:    did you mean this?
-/tmp/out.asm:4: Info:    	mov w7, w8
-/tmp/out.asm:4: Info:    other valid variant(s):
-/tmp/out.asm:4: Info:    	mov x7, x8
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
 mov w8,#0|08008052
-/tmp/out.asm:4: Info:    did you mean this?
-/tmp/out.asm:4: Info:    	mov w8, w0
-/tmp/out.asm:4: Info:    other valid variant(s):
-/tmp/out.asm:4: Info:    	mov x8, x0
-/tmp/out.asm:4: Info:    did you mean this?
-/tmp/out.asm:4: Info:    	mov w8, w1
-/tmp/out.asm:4: Info:    other valid variant(s):
-/tmp/out.asm:4: Info:    	mov x8, x1
-/tmp/out.asm:4: Info:    did you mean this?
-/tmp/out.asm:4: Info:    	mov w8, w2
-/tmp/out.asm:4: Info:    other valid variant(s):
-/tmp/out.asm:4: Info:    	mov x8, x2
-/tmp/out.asm:4: Info:    did you mean this?
-/tmp/out.asm:4: Info:    	mov w8, w3
-/tmp/out.asm:4: Info:    other valid variant(s):
-/tmp/out.asm:4: Info:    	mov x8, x3
-/tmp/out.asm:4: Info:    did you mean this?
-/tmp/out.asm:4: Info:    	mov w8, w4
-/tmp/out.asm:4: Info:    other valid variant(s):
-/tmp/out.asm:4: Info:    	mov x8, x4
-/tmp/out.asm:4: Info:    did you mean this?
-/tmp/out.asm:4: Info:    	mov w8, w5
-/tmp/out.asm:4: Info:    other valid variant(s):
-/tmp/out.asm:4: Info:    	mov x8, x5
-/tmp/out.asm:4: Info:    did you mean this?
-/tmp/out.asm:4: Info:    	mov w8, w6
-/tmp/out.asm:4: Info:    other valid variant(s):
-/tmp/out.asm:4: Info:    	mov x8, x6
-/tmp/out.asm:4: Info:    did you mean this?
-/tmp/out.asm:4: Info:    	mov w8, w7
-/tmp/out.asm:4: Info:    other valid variant(s):
-/tmp/out.asm:4: Info:    	mov x8, x7
 mov w8,w8|e803082a
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-b #0 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-b x0 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-b x1 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-b x2 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-b x3 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-b x4 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-b x5 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-b x6 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-b x7 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-b w8 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-bcc #0 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-bcc x0 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-bcc x1 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-bcc x2 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-bcc x3 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-bcc x4 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-bcc x5 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-bcc x6 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-bcc x7 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-bcc w8 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
 ret | c0035fd6
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-ret x0 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-ret x1 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-ret x2 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-ret x3 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-ret x4 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-ret x5 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-ret x6 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-ret x7 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/tmp/out.asm:4: Info:    did you mean this?
-/tmp/out.asm:4: Info:    	ret x8
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
 neg x0,x0|e00300cb
 neg x0,x1|e00301cb
 neg x0,x2|e00302cb
@@ -768,11 +326,6 @@ neg x0,x4|e00304cb
 neg x0,x5|e00305cb
 neg x0,x6|e00306cb
 neg x0,x7|e00307cb
-/tmp/out.asm:4: Info:    did you mean this?
-/tmp/out.asm:4: Info:    	neg w0, w8
-/tmp/out.asm:4: Info:    other valid variant(s):
-/tmp/out.asm:4: Info:    	neg x0, x8
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
 neg x1,x0|e10300cb
 neg x1,x1|e10301cb
 neg x1,x2|e10302cb
@@ -781,11 +334,6 @@ neg x1,x4|e10304cb
 neg x1,x5|e10305cb
 neg x1,x6|e10306cb
 neg x1,x7|e10307cb
-/tmp/out.asm:4: Info:    did you mean this?
-/tmp/out.asm:4: Info:    	neg w1, w8
-/tmp/out.asm:4: Info:    other valid variant(s):
-/tmp/out.asm:4: Info:    	neg x1, x8
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
 neg x2,x0|e20300cb
 neg x2,x1|e20301cb
 neg x2,x2|e20302cb
@@ -794,11 +342,6 @@ neg x2,x4|e20304cb
 neg x2,x5|e20305cb
 neg x2,x6|e20306cb
 neg x2,x7|e20307cb
-/tmp/out.asm:4: Info:    did you mean this?
-/tmp/out.asm:4: Info:    	neg w2, w8
-/tmp/out.asm:4: Info:    other valid variant(s):
-/tmp/out.asm:4: Info:    	neg x2, x8
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
 neg x3,x0|e30300cb
 neg x3,x1|e30301cb
 neg x3,x2|e30302cb
@@ -807,11 +350,6 @@ neg x3,x4|e30304cb
 neg x3,x5|e30305cb
 neg x3,x6|e30306cb
 neg x3,x7|e30307cb
-/tmp/out.asm:4: Info:    did you mean this?
-/tmp/out.asm:4: Info:    	neg w3, w8
-/tmp/out.asm:4: Info:    other valid variant(s):
-/tmp/out.asm:4: Info:    	neg x3, x8
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
 neg x4,x0|e40300cb
 neg x4,x1|e40301cb
 neg x4,x2|e40302cb
@@ -820,11 +358,6 @@ neg x4,x4|e40304cb
 neg x4,x5|e40305cb
 neg x4,x6|e40306cb
 neg x4,x7|e40307cb
-/tmp/out.asm:4: Info:    did you mean this?
-/tmp/out.asm:4: Info:    	neg w4, w8
-/tmp/out.asm:4: Info:    other valid variant(s):
-/tmp/out.asm:4: Info:    	neg x4, x8
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
 neg x5,x0|e50300cb
 neg x5,x1|e50301cb
 neg x5,x2|e50302cb
@@ -833,11 +366,6 @@ neg x5,x4|e50304cb
 neg x5,x5|e50305cb
 neg x5,x6|e50306cb
 neg x5,x7|e50307cb
-/tmp/out.asm:4: Info:    did you mean this?
-/tmp/out.asm:4: Info:    	neg w5, w8
-/tmp/out.asm:4: Info:    other valid variant(s):
-/tmp/out.asm:4: Info:    	neg x5, x8
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
 neg x6,x0|e60300cb
 neg x6,x1|e60301cb
 neg x6,x2|e60302cb
@@ -846,11 +374,6 @@ neg x6,x4|e60304cb
 neg x6,x5|e60305cb
 neg x6,x6|e60306cb
 neg x6,x7|e60307cb
-/tmp/out.asm:4: Info:    did you mean this?
-/tmp/out.asm:4: Info:    	neg w6, w8
-/tmp/out.asm:4: Info:    other valid variant(s):
-/tmp/out.asm:4: Info:    	neg x6, x8
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
 neg x7,x0|e70300cb
 neg x7,x1|e70301cb
 neg x7,x2|e70302cb
@@ -859,264 +382,7 @@ neg x7,x4|e70304cb
 neg x7,x5|e70305cb
 neg x7,x6|e70306cb
 neg x7,x7|e70307cb
-/tmp/out.asm:4: Info:    did you mean this?
-/tmp/out.asm:4: Info:    	neg w7, w8
-/tmp/out.asm:4: Info:    other valid variant(s):
-/tmp/out.asm:4: Info:    	neg x7, x8
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/tmp/out.asm:4: Info:    did you mean this?
-/tmp/out.asm:4: Info:    	neg w8, w0
-/tmp/out.asm:4: Info:    other valid variant(s):
-/tmp/out.asm:4: Info:    	neg x8, x0
-/tmp/out.asm:4: Info:    did you mean this?
-/tmp/out.asm:4: Info:    	neg w8, w1
-/tmp/out.asm:4: Info:    other valid variant(s):
-/tmp/out.asm:4: Info:    	neg x8, x1
-/tmp/out.asm:4: Info:    did you mean this?
-/tmp/out.asm:4: Info:    	neg w8, w2
-/tmp/out.asm:4: Info:    other valid variant(s):
-/tmp/out.asm:4: Info:    	neg x8, x2
-/tmp/out.asm:4: Info:    did you mean this?
-/tmp/out.asm:4: Info:    	neg w8, w3
-/tmp/out.asm:4: Info:    other valid variant(s):
-/tmp/out.asm:4: Info:    	neg x8, x3
-/tmp/out.asm:4: Info:    did you mean this?
-/tmp/out.asm:4: Info:    	neg w8, w4
-/tmp/out.asm:4: Info:    other valid variant(s):
-/tmp/out.asm:4: Info:    	neg x8, x4
-/tmp/out.asm:4: Info:    did you mean this?
-/tmp/out.asm:4: Info:    	neg w8, w5
-/tmp/out.asm:4: Info:    other valid variant(s):
-/tmp/out.asm:4: Info:    	neg x8, x5
-/tmp/out.asm:4: Info:    did you mean this?
-/tmp/out.asm:4: Info:    	neg w8, w6
-/tmp/out.asm:4: Info:    other valid variant(s):
-/tmp/out.asm:4: Info:    	neg x8, x6
-/tmp/out.asm:4: Info:    did you mean this?
-/tmp/out.asm:4: Info:    	neg w8, w7
-/tmp/out.asm:4: Info:    other valid variant(s):
-/tmp/out.asm:4: Info:    	neg x8, x7
 neg w8,w8|e803084b
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
 str x0,[x0]|000000f9
 str x0,[x1]|200000f9
 str x0,[x2]|400000f9
@@ -1126,7 +392,6 @@ str x0,[x5]|a00000f9
 str x0,[x6]|c00000f9
 str x0,[x7]|e00000f9
 str x0,[x8]|000100f9
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
 str x1,[x0]|010000f9
 str x1,[x1]|210000f9
 str x1,[x2]|410000f9
@@ -1136,7 +401,6 @@ str x1,[x5]|a10000f9
 str x1,[x6]|c10000f9
 str x1,[x7]|e10000f9
 str x1,[x8]|010100f9
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
 str x2,[x0]|020000f9
 str x2,[x1]|220000f9
 str x2,[x2]|420000f9
@@ -1146,7 +410,6 @@ str x2,[x5]|a20000f9
 str x2,[x6]|c20000f9
 str x2,[x7]|e20000f9
 str x2,[x8]|020100f9
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
 str x3,[x0]|030000f9
 str x3,[x1]|230000f9
 str x3,[x2]|430000f9
@@ -1156,7 +419,6 @@ str x3,[x5]|a30000f9
 str x3,[x6]|c30000f9
 str x3,[x7]|e30000f9
 str x3,[x8]|030100f9
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
 str x4,[x0]|040000f9
 str x4,[x1]|240000f9
 str x4,[x2]|440000f9
@@ -1166,7 +428,6 @@ str x4,[x5]|a40000f9
 str x4,[x6]|c40000f9
 str x4,[x7]|e40000f9
 str x4,[x8]|040100f9
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
 str x5,[x0]|050000f9
 str x5,[x1]|250000f9
 str x5,[x2]|450000f9
@@ -1176,7 +437,6 @@ str x5,[x5]|a50000f9
 str x5,[x6]|c50000f9
 str x5,[x7]|e50000f9
 str x5,[x8]|050100f9
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
 str x6,[x0]|060000f9
 str x6,[x1]|260000f9
 str x6,[x2]|460000f9
@@ -1186,7 +446,6 @@ str x6,[x5]|a60000f9
 str x6,[x6]|c60000f9
 str x6,[x7]|e60000f9
 str x6,[x8]|060100f9
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
 str x7,[x0]|070000f9
 str x7,[x1]|270000f9
 str x7,[x2]|470000f9
@@ -1196,7 +455,6 @@ str x7,[x5]|a70000f9
 str x7,[x6]|c70000f9
 str x7,[x7]|e70000f9
 str x7,[x8]|070100f9
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
 str w8,[x0]|080000b9
 str w8,[x1]|280000b9
 str w8,[x2]|480000b9
@@ -1206,606 +464,7 @@ str w8,[x5]|a80000b9
 str w8,[x6]|c80000b9
 str w8,[x7]|e80000b9
 str w8,[x8]|080100b9
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-bne #0 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-bne x0 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-bne x1 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-bne x2 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-bne x3 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-bne x4 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-bne x5 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-bne x6 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-bne x7 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-bne w8 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-bl #0 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-bl x0 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-bl x1 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-bl x2 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-bl x3 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-bl x4 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-bl x5 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-bl x6 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-bl x7 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-bl w8 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-blt #0 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-blt x0 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-blt x1 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-blt x2 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-blt x3 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-blt x4 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-blt x5 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-blt x6 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-blt x7 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-blt w8 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-beq #0 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-beq x0 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-beq x1 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-beq x2 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-beq x3 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-beq x4 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-beq x5 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-beq x6 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-beq x7 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-beq w8 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
  | 
- #0 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
  #0,#0|
  #0,x0|
  #0,x1|
@@ -1825,21 +484,3 @@ beq w8 | /bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
  #0,[x6]|
  #0,[x7]|
  #0,[x8]|
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
-/bin/sh: 1: /aarch64-linux-gnu-objcopy: not found
