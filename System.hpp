@@ -259,6 +259,127 @@ class Integer{
 
 
 };
+class Long{
+    protected :
+        
+     public :
+        long value=0;
+        Long(long v){
+            value=v;
+        };
+        Long(Long *v){
+            value=v->value;
+        };
+
+        Long(String *v){
+            char *cc=v->value;
+            value=atoi(cc);
+        };
+        Long(string *v){
+            char *cc=v->value;
+            value=atoi(cc);
+        };
+
+        Long(char *v){
+            value=atoi(v);
+        };
+        Long operator=(long& obj){
+            Long ii(obj);
+            return ii;
+            
+            
+        };
+        Long operator=(Long *obj){
+            Long ii(obj->value);
+            ii.value=obj->value;
+            return ii;
+            
+            
+        };
+        Long operator+(long obj){
+            Long ii(value);
+            ii.value=ii.value+obj;
+            return ii;
+            
+            
+        };
+        Long operator+(Long& obj){
+            Long ii(value);
+            ii.value=ii.value+obj.value;
+            return ii;
+            
+            
+        };
+
+        Long operator-(long obj){
+            Long ii(value);
+            ii.value=ii.value-obj;
+            return ii;
+            
+            
+        };
+        Long operator-(Long& obj){
+            Long ii(value);
+            ii.value=ii.value-obj.value;
+            return ii;
+            
+            
+        };
+
+        Long operator*(long obj){
+            Long ii(value);
+            ii.value=ii.value*obj;
+            return ii;
+            
+            
+        };
+        Long operator*(Long& obj){
+            Long ii(value);
+            ii.value=ii.value*obj.value;
+            return ii;
+            
+            
+        };
+        Long operator/(long obj){
+            Long ii(value);
+            ii.value=ii.value/obj;
+            return ii;
+            
+            
+        };
+        Long operator/(Long& obj){
+            Long ii(value);
+            ii.value=ii.value/obj.value;
+            return ii;
+            
+            
+        };
+        Long operator%(long obj){
+            Long ii(value);
+            ii.value=ii.value%obj;
+            return ii;
+            
+            
+        };
+        Long operator%(Long& obj){
+            Long ii(value);
+            ii.value=ii.value%obj.value;
+            return ii;
+            
+            
+        };
+
+        char *ToString(){
+            char vv[4096];
+            char *ccc=vv;
+            strcpy(vv,"");
+            sprintf(vv,"%d",value);
+            return ccc;
+        }; 
+
+
+};
+
 class Consoles{
     protected :
         char c[4096];
@@ -273,6 +394,9 @@ class Consoles{
             puts(c.ToString());
         };
         void WriteLine(Integer c){
+            puts(c.ToString());
+        };
+        void WriteLine(Long c){
             puts(c.ToString());
         };
 
