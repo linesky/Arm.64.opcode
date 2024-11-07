@@ -11,7 +11,7 @@ int main(){
     m.Main();
     return 0;
 }"""
-files=input("file il to decompile? ")
+files=input("file c# to convert? ")
 pfiles=files
 ill=files.find(".")
 if ill>-1:

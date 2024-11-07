@@ -21,35 +21,28 @@ class String{
             
         };
 
-        
-        
-    
-
-        String operator=(String& obj){
+        String operator=(String *obj){
             String ress("");
-            strcpy(value,obj.value); 
+            strcpy(ress.value,obj->value); 
             return ress;
             
         };
+         
+        String operator+(String& obj){
+            String ress(value);
+            strcat(ress.value,obj.value); 
+            return ress;
+            
+        };
+
+
         String operator+(const char *obj){
             String ress(value);
             strcat(ress.value,obj); 
             return ress;
             
         };
-
         
-        
-    
-
-        String operator+(String *obj){
-            String ress(value);
-            strcat(ress.value,obj->value); 
-            return ress;
-
-            
-        };
-
         char *ToString(){
             return value;
         }; 
