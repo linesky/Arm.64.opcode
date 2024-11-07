@@ -191,7 +191,63 @@ class Integer{
             
         };
 
+        Integer operator-(int obj){
+            Integer ii(value);
+            ii.value=ii.value-obj;
+            return ii;
+            
+            
+        };
+        Integer operator-(Integer& obj){
+            Integer ii(value);
+            ii.value=ii.value-obj.value;
+            return ii;
+            
+            
+        };
 
+        Integer operator*(int obj){
+            Integer ii(value);
+            ii.value=ii.value*obj;
+            return ii;
+            
+            
+        };
+        Integer operator*(Integer& obj){
+            Integer ii(value);
+            ii.value=ii.value*obj.value;
+            return ii;
+            
+            
+        };
+        Integer operator/(int obj){
+            Integer ii(value);
+            ii.value=ii.value/obj;
+            return ii;
+            
+            
+        };
+        Integer operator/(Integer& obj){
+            Integer ii(value);
+            ii.value=ii.value/obj.value;
+            return ii;
+            
+            
+        };
+        Integer operator%(int obj){
+            Integer ii(value);
+            ii.value=ii.value%obj;
+            return ii;
+            
+            
+        };
+        Integer operator%(Integer& obj){
+            Integer ii(value);
+            ii.value=ii.value%obj.value;
+            return ii;
+            
+            
+        };
 
         char *ToString(){
             char vv[4096];
