@@ -4,10 +4,11 @@ class MainApp
 {
     public static void Main()
     {
-                String s="Hello World using C#!";
-        String ss=s + "!!!!";
+        string s="Hello World using C#!";
+        string ss=s + "!!!!";
         ss=ss+"hello";
-        ss=ss+ss;
+        Integer i=0;
         Console.WriteLine(ss);
+        Console.WriteLine(i); 
     }
 }
