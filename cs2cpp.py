@@ -1,15 +1,16 @@
 import os
 tttt="""
-#include <base.hpp>
+#include "System.hpp"
 
 """
 
-yyyy=""""
+yyyy="""
 
 int main(){
-    main();
-}
-"""
+    MainApp m;
+    m.Main();
+    return 0;
+}"""
 files=input("file il to decompile? ")
 pfiles=files
 ill=files.find(".")
@@ -19,9 +20,11 @@ if ill>-1:
 f1=open(files,"r")
 txts=f1.read()
 f1.close()
-
+txts=txts.replace("using System;",tttt)
+txts=txts.replace("public ","public :")
+txts=txts.replace("}","};")
 list1=txts.split("\n")
-txts=tttt
+txts=""
 onon=False
 counter=0
 counter2=0
