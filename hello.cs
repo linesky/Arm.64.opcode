@@ -7,7 +7,9 @@ class MainApp
         string s="Hello World using C#!";
         string ss=s + "!!!!";
         ss=ss+"hello";
-        Integer i=0;
+        Integer i=50;
+        i=i+50;
+        i=i+i;
         Console.WriteLine(ss);
         Console.WriteLine(i); 
     }

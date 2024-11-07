@@ -73,8 +73,9 @@ class String{
 
 class string{
     protected :
-        char value[4096]="";
+        
     public :
+        char value[4096]="";
         string(const char *obj){
             strcpy(value,obj);
         };
@@ -146,26 +147,50 @@ class Integer{
         Integer(int v){
             value=v;
         };
+        Integer(Integer *v){
+            value=v->value;
+        };
+
         Integer(String *v){
             char *cc=v->value;
             value=atoi(cc);
         };
+        Integer(string *v){
+            char *cc=v->value;
+            value=atoi(cc);
+        };
+
         Integer(char *v){
             value=atoi(v);
         };
         Integer operator=(int& obj){
+            Integer ii(obj);
+            return ii;
+            
+            
+        };
+        Integer operator=(Integer *obj){
+            Integer ii(obj->value);
+            ii.value=obj->value;
+            return ii;
+            
+            
+        };
+        Integer operator+(int obj){
             Integer ii(value);
+            ii.value=ii.value+obj;
             return ii;
             
             
         };
-        Integer operator=(Integer& obj){
-            Integer ii(obj.value);
-            ii.value=obj.value;
+        Integer operator+(Integer& obj){
+            Integer ii(value);
+            ii.value=ii.value+obj.value;
             return ii;
             
             
         };
+
 
 
         char *ToString(){
