@@ -399,6 +399,26 @@ class Consoles{
         void WriteLine(Long c){
             puts(c.ToString());
         };
+        void WriteLine(){
+            puts("");
+        };
+
+
+        void Write(const char *c){
+            printf(c);
+        };
+        void Write(String c){
+            printf(c.ToString());
+        };
+        void Write(string c){
+            printf(c.ToString());
+        };
+        void Write(Integer c){
+            printf(c.ToString());
+        };
+        void Write(Long c){
+            printf(c.ToString());
+        };
 
 
 
