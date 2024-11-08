@@ -106,9 +106,100 @@ class String{
 
         }; 
 };
-class string:public String{
-    };
+class string{
+    protected :
+        
+    public :
+        char *value=NULL;
+        
+       
+        string(const char *obj){
+            value=(char*)malloc(strlen(obj)+16);
+            maxpagess[maxpagesss]=value;
+            maxpagesss++;
+            strcpy(value,obj);
+        };
+        string(string *obj){
+            value=(char*)malloc(strlen(obj->value)+16);
+            maxpagess[maxpagesss]=value;
+            maxpagesss++;
+            strcpy(value,obj->value);
+        };
+     
+        void operator=(const char *obj){
+            long i=strlen(obj)+16;
+            value=(char*)realloc((void*)value,(size_t)i);
 
+            strcpy(value,obj); 
+            
+            
+        };
+
+        string operator=(string *obj){
+            string ress(obj->value);
+            long i=strlen(obj->value)+16;
+            value=(char*)realloc((void*)value,(size_t)i);
+            strcpy(ress.value,obj->value); 
+            return ress;
+            
+        };
+         
+        string operator+(string& obj){
+            string ress(value);
+            long i=strlen(obj.value)+16+strlen(ress.value);
+            value=(char*)realloc((void*)value,(size_t)i);
+            ress.value=(char*)realloc((void*)value,(size_t)i);   
+            strcat(ress.value,obj.value); 
+            return ress;
+            
+        };
+
+
+        string operator+(const char *obj){
+            string ress(value);
+            long i=strlen(obj)+16+strlen(ress.value);
+            value=(char*)realloc((void*)value,(size_t)i);
+            ress.value=(char*)realloc((void*)value,(size_t)i);
+            strcat(ress.value,obj); 
+            return ress;
+            
+        };
+        
+
+
+
+
+
+
+        string operator+=(string& obj){
+            string ress(value);
+            long i=strlen(obj.value)+16+strlen(ress.value);
+            value=(char*)realloc((void*)value,(size_t) i);
+            ress.value=(char*)realloc((void*)value,(size_t)i);
+
+            strcat(ress.value,obj.value); 
+            return ress;
+            
+        };
+
+
+        string operator+=(const char *obj){
+            string ress(value);
+            long i=strlen(obj)+16+strlen(ress.value);
+            value=(char*)realloc((void*)value,(size_t)i);
+            ress.value=(char*)realloc((void*)value,(size_t)i);
+            strcat(ress.value,obj); 
+            return ress;
+            
+        };
+        
+
+        char *ToString(){
+            char *ccc=value;
+            return ccc;
+
+        }; 
+};
 class Integer{
     protected :
         
