@@ -387,6 +387,251 @@ class Long{
 
 
 };
+class Float{
+    protected :
+        
+     public :
+        float value=0.00;
+        Float(float v){
+            value=v;
+        };
+        Float(Float *v){
+            value=v->value;
+        };
+
+        Float(String *v){
+            char *cc=v->value;
+            value=atoi(cc);
+        };
+        Float(string *v){
+            char *cc=v->value;
+            value=atoi(cc);
+        };
+
+        Float(char *v){
+            value=atoi(v);
+        };
+        Float operator=(float& obj){
+            Float ii(obj);
+            return ii;
+            
+            
+        };
+        Float operator=(Float *obj){
+            Float ii(obj->value);
+            ii.value=obj->value;
+            return ii;
+            
+            
+        };
+        Float operator+(float obj){
+            Float ii(value);
+            ii.value=ii.value+obj;
+            return ii;
+            
+            
+        };
+        Float operator+(Float& obj){
+            Float ii(value);
+            ii.value=ii.value+obj.value;
+            return ii;
+            
+            
+        };
+
+        Float operator-(float obj){
+            Float ii(value);
+            ii.value=ii.value-obj;
+            return ii;
+            
+            
+        };
+        Float operator-(Float& obj){
+            Float ii(value);
+            ii.value=ii.value-obj.value;
+            return ii;
+            
+            
+        };
+
+        Float operator*(float obj){
+            Float ii(value);
+            ii.value=ii.value*obj;
+            return ii;
+            
+            
+        };
+        Float operator*(Float& obj){
+            Float ii(value);
+            ii.value=ii.value*obj.value;
+            return ii;
+            
+            
+        };
+        Float operator/(float obj){
+            Float ii(value);
+            ii.value=ii.value/obj;
+            return ii;
+            
+            
+        };
+        Float operator/(Float& obj){
+            Float ii(value);
+            ii.value=ii.value/obj.value;
+            return ii;
+            
+            
+        };
+        Float operator%(float obj){
+            Float ii(value);
+            ii.value=(float)(int(ii.value)%int(obj));
+            
+            return ii;
+            
+            
+        };
+        Float operator%(Float& obj){
+            Float ii(value);
+            
+            ii.value=(float)(int(ii.value)%int(obj.value));
+            return ii;
+            
+            
+        };
+
+        char *ToString(){
+            char vv[4096];
+            char *ccc=vv;
+            strcpy(vv,"");
+            sprintf(vv,"%f",value);
+            return ccc;
+        }; 
+
+
+};
+
+
+class Double{
+    protected :
+        
+     public :
+        double value=0;
+        Double(double v){
+            value=v;
+        };
+        Double(Double *v){
+            value=v->value;
+        };
+
+        Double(String *v){
+            char *cc=v->value;
+            value=atoi(cc);
+        };
+        Double(string *v){
+            char *cc=v->value;
+            value=atoi(cc);
+        };
+
+        Double(char *v){
+            value=atoi(v);
+        };
+        Double operator=(double& obj){
+            Double ii(obj);
+            return ii;
+            
+            
+        };
+        Double operator=(Double *obj){
+            Double ii(obj->value);
+            ii.value=obj->value;
+            return ii;
+            
+            
+        };
+        Double operator+(double obj){
+            Double ii(value);
+            ii.value=ii.value+obj;
+            return ii;
+            
+            
+        };
+        Double operator+(Double& obj){
+            Double ii(value);
+            ii.value=ii.value+obj.value;
+            return ii;
+            
+            
+        };
+
+        Double operator-(double obj){
+            Double ii(value);
+            ii.value=ii.value-obj;
+            return ii;
+            
+            
+        };
+        Double operator-(Double& obj){
+            Double ii(value);
+            ii.value=ii.value-obj.value;
+            return ii;
+            
+            
+        };
+
+        Double operator*(double obj){
+            Double ii(value);
+            ii.value=ii.value*obj;
+            return ii;
+            
+            
+        };
+        Double operator*(Double& obj){
+            Double ii(value);
+            ii.value=ii.value*obj.value;
+            return ii;
+            
+            
+        };
+        Double operator/(double obj){
+            Double ii(value);
+            ii.value=ii.value/obj;
+            return ii;
+            
+            
+        };
+        Double operator/(Double& obj){
+            Double ii(value);
+            ii.value=ii.value/obj.value;
+            return ii;
+            
+            
+        };
+        Double operator%(double obj){
+            Double ii(value);
+            ii.value=(double)(int(ii.value)%int(obj));
+            return ii;
+            
+            
+        };
+        Double operator%(Double& obj){
+            Double ii(value);
+           ii.value=(double)(int(ii.value)%int(obj.value));
+            return ii;
+            
+            
+        };
+
+        char *ToString(){
+            char vv[4096];
+            char *ccc=vv;
+            strcpy(vv,"");
+            sprintf(vv,"%lf",value);
+            return ccc;
+        }; 
+
+
+};
+
 
 class Consoles{
     protected :
@@ -410,6 +655,13 @@ class Consoles{
         void WriteLine(){
             puts("");
         };
+        void WriteLine(Float c){
+            puts(c.ToString());
+        };
+        void WriteLine(Double c){
+            puts(c.ToString());
+        };
+
 
 
         void Write(const char *c){
@@ -427,6 +679,14 @@ class Consoles{
         void Write(Long c){
             printf(c.ToString());
         };
+        void Write(Float c){
+            printf(c.ToString());
+        };
+        void Write(Double c){
+            printf(c.ToString());
+        };
+
+
 
         char *ReadLine(const char *c){
             char ccc[4096];

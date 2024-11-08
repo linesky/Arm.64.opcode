@@ -8,6 +8,8 @@ class MainApp
         string ss=s + "!!!!";
         ss=ss+"hello";
         Integer i=50;
+        Float f=5.00;
+        Double d=5.00;
         i=i+50;
         i=i-1;
         i=i+i;
@@ -28,6 +30,8 @@ class MainApp
         Console.WriteLine();
         Console.Write(ii);
         Console.WriteLine();
+        Console.WriteLine(f);
+        Console.WriteLine(d);
         ss=Console.ReadLine("press key? ");
         Console.WriteLine(ss);
     }
