@@ -6,6 +6,9 @@ class string;
 class Integer;
 class Long;
 class Consoles;
+class Int32;
+class Double;
+class Float;
 class String{
     protected :
         
@@ -75,78 +78,9 @@ class String{
 
         }; 
 };
+class string:public String{
+    };
 
-class string{
-    protected :
-        
-    public :
-        char value[4096]="";
-        string(const char *obj){
-            strcpy(value,obj);
-        };
-        string(string *obj){
-            strcpy(value,obj->value);
-        };
-        string(String *obj){
-            strcpy(value,obj->value);
-        };
-
-        void operator=(const char *obj){
-            
-            strcpy(value,obj); 
-            
-            
-        };
-
-        string operator=(string *obj){
-            string ress("");
-            strcpy(ress.value,obj->value); 
-            return ress;
-            
-        };
-         
-        string operator+(string& obj){
-            string ress(value);
-            strcat(ress.value,obj.value); 
-            return ress;
-            
-        };
-
-
-        string operator+(const char *obj){
-            string ress(value);
-            strcat(ress.value,obj); 
-            return ress;
-            
-        };
-        
-
-
-
-
-
-
-        string operator+=(string& obj){
-            string ress(value);
-            strcat(ress.value,obj.value); 
-            return ress;
-            
-        };
-
-
-        string operator+=(const char *obj){
-            string ress(value);
-            strcat(ress.value,obj); 
-            return ress;
-            
-        };
-        
-
-        char *ToString(){
-            char *ccc=value;
-            return ccc;
-        }; 
-};
 class Integer{
     protected :
         
