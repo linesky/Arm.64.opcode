@@ -22,8 +22,13 @@ class MainApp
         ii=ii/4;
         ii=ii%5;
 
+        Console.Write(ss);
+        Console.WriteLine();
+        Console.Write(i);
+        Console.WriteLine();
+        Console.Write(ii);
+        Console.WriteLine();
+        ss=Console.ReadLine("press key? ");
         Console.WriteLine(ss);
-        Console.WriteLine(i);
-        Console.WriteLine(ii);
     }
 }

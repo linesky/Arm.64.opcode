@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+class String;
+class string;
+class Integer;
+class Long;
+class Consoles;
 class String{
     protected :
         
@@ -82,7 +87,10 @@ class string{
         string(string *obj){
             strcpy(value,obj->value);
         };
-     
+        string(String *obj){
+            strcpy(value,obj->value);
+        };
+
         void operator=(const char *obj){
             
             strcpy(value,obj); 
@@ -420,6 +428,13 @@ class Consoles{
             printf(c.ToString());
         };
 
+        char *ReadLine(const char *c){
+            char ccc[4096];
+            char *c1=ccc;
+            printf(c);
+            fgets(ccc,4095,stdin);
+            return c1;
+        };
 
 
 
