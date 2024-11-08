@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#define maxpages 8192
+char *maxpagess[maxpages];
+int maxpagesss=0;
 class String;
 class string;
 class Integer;
@@ -13,23 +16,35 @@ class String{
     protected :
         
     public :
-        char value[4096]="";
+        char *value=NULL;
+        
+       
         String(const char *obj){
+            value=(char*)malloc(strlen(obj)+16);
+            maxpagess[maxpagesss]=value;
+            maxpagesss++;
             strcpy(value,obj);
         };
         String(String *obj){
+            value=(char*)malloc(strlen(obj->value)+16);
+            maxpagess[maxpagesss]=value;
+            maxpagesss++;
             strcpy(value,obj->value);
         };
      
         void operator=(const char *obj){
-            
+            long i=strlen(obj)+16;
+            value=(char*)realloc((void*)value,(size_t)i);
+
             strcpy(value,obj); 
             
             
         };
 
         String operator=(String *obj){
-            String ress("");
+            String ress(obj->value);
+            long i=strlen(obj->value)+16;
+            value=(char*)realloc((void*)value,(size_t)i);
             strcpy(ress.value,obj->value); 
             return ress;
             
@@ -37,6 +52,9 @@ class String{
          
         String operator+(String& obj){
             String ress(value);
+            long i=strlen(obj.value)+16+strlen(ress.value);
+            value=(char*)realloc((void*)value,(size_t)i);
+            ress.value=(char*)realloc((void*)value,(size_t)i);   
             strcat(ress.value,obj.value); 
             return ress;
             
@@ -45,6 +63,9 @@ class String{
 
         String operator+(const char *obj){
             String ress(value);
+            long i=strlen(obj)+16+strlen(ress.value);
+            value=(char*)realloc((void*)value,(size_t)i);
+            ress.value=(char*)realloc((void*)value,(size_t)i);
             strcat(ress.value,obj); 
             return ress;
             
@@ -58,6 +79,10 @@ class String{
 
         String operator+=(String& obj){
             String ress(value);
+            long i=strlen(obj.value)+16+strlen(ress.value);
+            value=(char*)realloc((void*)value,(size_t) i);
+            ress.value=(char*)realloc((void*)value,(size_t)i);
+
             strcat(ress.value,obj.value); 
             return ress;
             
@@ -66,6 +91,9 @@ class String{
 
         String operator+=(const char *obj){
             String ress(value);
+            long i=strlen(obj)+16+strlen(ress.value);
+            value=(char*)realloc((void*)value,(size_t)i);
+            ress.value=(char*)realloc((void*)value,(size_t)i);
             strcat(ress.value,obj); 
             return ress;
             
@@ -686,7 +714,6 @@ class Int32{
 
 };
 
-
 class Consoles{
     protected :
         char c[4096];
@@ -793,4 +820,8 @@ class Consoles{
 
 
 };
+void frees(){
+    long i=0;
+    if (i>0)for (i=0;i<maxpagesss;i++)if( maxpagess[i]!=NULL)free( maxpagess[i]);
+}
 Consoles Console;

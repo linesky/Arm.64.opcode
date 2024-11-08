@@ -9,6 +9,7 @@ yyyy="""
 int main(){
     MainApp m;
     m.Main();
+    frees();
     return 0;
 }"""
 files=input("file c# to convert? ")
