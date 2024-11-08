@@ -631,6 +631,126 @@ class Double{
 
 
 };
+class Int32{
+    protected :
+        
+     public :
+        int value=0;
+        Int32(int v){
+            value=v;
+        };
+        Int32(Int32 *v){
+            value=v->value;
+        };
+
+        Int32(String *v){
+            char *cc=v->value;
+            value=atoi(cc);
+        };
+        Int32(string *v){
+            char *cc=v->value;
+            value=atoi(cc);
+        };
+
+        Int32(char *v){
+            value=atoi(v);
+        };
+        Int32 operator=(int& obj){
+            Int32 ii(obj);
+            return ii;
+            
+            
+        };
+        Int32 operator=(Int32 *obj){
+            Int32 ii(obj->value);
+            ii.value=obj->value;
+            return ii;
+            
+            
+        };
+        Int32 operator+(int obj){
+            Int32 ii(value);
+            ii.value=ii.value+obj;
+            return ii;
+            
+            
+        };
+        Int32 operator+(Int32& obj){
+            Int32 ii(value);
+            ii.value=ii.value+obj.value;
+            return ii;
+            
+            
+        };
+
+        Int32 operator-(int obj){
+            Int32 ii(value);
+            ii.value=ii.value-obj;
+            return ii;
+            
+            
+        };
+        Int32 operator-(Int32& obj){
+            Int32 ii(value);
+            ii.value=ii.value-obj.value;
+            return ii;
+            
+            
+        };
+
+        Int32 operator*(int obj){
+            Int32 ii(value);
+            ii.value=ii.value*obj;
+            return ii;
+            
+            
+        };
+        Int32 operator*(Int32& obj){
+            Int32 ii(value);
+            ii.value=ii.value*obj.value;
+            return ii;
+            
+            
+        };
+        Int32 operator/(int obj){
+            Int32 ii(value);
+            ii.value=ii.value/obj;
+            return ii;
+            
+            
+        };
+        Int32 operator/(Int32& obj){
+            Int32 ii(value);
+            ii.value=ii.value/obj.value;
+            return ii;
+            
+            
+        };
+        Int32 operator%(int obj){
+            Int32 ii(value);
+            ii.value=ii.value%obj;
+            return ii;
+            
+            
+        };
+        Int32 operator%(Int32& obj){
+            Int32 ii(value);
+            ii.value=ii.value%obj.value;
+            return ii;
+            
+            
+        };
+
+        char *ToString(){
+            char vv[4096];
+            char *ccc=vv;
+            strcpy(vv,"");
+            sprintf(vv,"%d",value);
+            return ccc;
+        }; 
+
+
+};
 
 
 class Consoles{
@@ -661,7 +781,26 @@ class Consoles{
         void WriteLine(Double c){
             puts(c.ToString());
         };
+        void WriteLine(Int32 c){
+            puts(c.ToString());
+        };
+        void WriteLine(float c){
+            Float i(c);
+            puts(i.ToString());
+        };
+        void WriteLine(double c){
+            Double i(c);
+            puts(i.ToString());
+        };
+        void WriteLine(long c){
+            Long i(c);
+            puts(i.ToString());
+        };
 
+        void WriteLine(int c){
+            Int32 i(c);
+            puts(i.ToString());
+        };
 
 
         void Write(const char *c){
@@ -684,6 +823,27 @@ class Consoles{
         };
         void Write(Double c){
             printf(c.ToString());
+        };
+
+        void Write(Int32 c){
+            printf(c.ToString());
+        };
+        void Write(float c){
+            Float i(c);
+            printf(i.ToString());
+        };
+        void Write(double c){
+            Double i(c);
+            printf(i.ToString());
+        };
+        void Write(long c){
+            Long i(c);
+            printf(i.ToString());
+        };
+
+        void Write(int c){
+            Int32 i(c);
+            printf(i.ToString());
         };
 
 

@@ -10,6 +10,7 @@ class MainApp
         Integer i=50;
         Float f=5.00;
         Double d=5.00;
+        Int32 i32=5;
         i=i+50;
         i=i-1;
         i=i+i;
@@ -32,6 +33,11 @@ class MainApp
         Console.WriteLine();
         Console.WriteLine(f);
         Console.WriteLine(d);
+        Console.WriteLine(i32);
+        Console.WriteLine(f.value);
+        Console.WriteLine(d.value);
+        Console.WriteLine(i32.value);
+
         ss=Console.ReadLine("press key? ");
         Console.WriteLine(ss);
     }
